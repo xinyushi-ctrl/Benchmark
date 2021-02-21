@@ -1,0 +1,117 @@
+xinyu@xinyu-Aspire-5750ZG:~/x86_energy/test$ sudo ./test
+Architecture: Intel RAPL
+
+Testing source sysfs-powercap-rapl
+Try counter 0
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:21:47      Read value 4.070758e+00
+2021/02/22 00:21:48      Read value 3.966409e+00
+2021/02/22 00:21:49      Read value 3.925914e+00
+2021/02/22 00:21:50      Read value 3.904552e+00
+2021/02/22 00:21:51      Read value 4.003593e+00
+2021/02/22 00:21:52      Read value 3.920909e+00
+2021/02/22 00:21:53      Read value 3.868849e+00
+2021/02/22 00:21:54      Read value 3.919429e+00
+2021/02/22 00:21:55      Read value 3.912030e+00
+2021/02/22 00:21:56      Read value 3.880292e+00
+Try counter 1
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:21:58      Read value 2.495750e-01
+2021/02/22 00:21:59      Read value 3.363020e-01
+2021/02/22 00:22:00      Read value 3.291760e-01
+2021/02/22 00:22:01      Read value 2.633680e-01
+2021/02/22 00:22:02      Read value 2.221570e-01
+2021/02/22 00:22:03      Read value 3.342720e-01
+2021/02/22 00:22:04      Read value 1.996200e-01
+2021/02/22 00:22:05      Read value 2.659020e-01
+2021/02/22 00:22:06      Read value 6.843360e-01
+2021/02/22 00:22:07      Read value 4.671240e-01
+Try counter 3
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:22:09      Read value 1.073240e-01
+2021/02/22 00:22:10      Read value 1.081180e-01
+2021/02/22 00:22:11      Read value 1.022600e-01
+2021/02/22 00:22:12      Read value 1.142820e-01
+2021/02/22 00:22:13      Read value 1.131690e-01
+2021/02/22 00:22:14      Read value 1.414260e-01
+2021/02/22 00:22:15      Read value 8.896900e-02
+2021/02/22 00:22:16      Read value 1.266570e-01
+2021/02/22 00:22:17      Read value 1.017250e-01
+2021/02/22 00:22:18      Read value 1.061200e-01
+
+Testing source perf-rapl
+Try counter 0
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:22:20      Read value 3.951309e+00
+2021/02/22 00:22:21      Read value 3.927963e+00
+2021/02/22 00:22:22      Read value 3.984177e+00
+2021/02/22 00:22:23      Read value 3.926193e+00
+2021/02/22 00:22:24      Read value 3.931015e+00
+2021/02/22 00:22:25      Read value 3.996780e+00
+2021/02/22 00:22:26      Read value 3.889206e+00
+2021/02/22 00:22:27      Read value 3.999268e+00
+2021/02/22 00:22:28      Read value 4.009476e+00
+2021/02/22 00:22:29      Read value 3.885544e+00
+Try counter 1
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:22:31      Read value 2.544861e-01
+2021/02/22 00:22:32      Read value 3.361816e-01
+2021/02/22 00:22:33      Read value 2.088623e-01
+2021/02/22 00:22:34      Read value 2.102509e-01
+2021/02/22 00:22:35      Read value 2.250671e-01
+2021/02/22 00:22:36      Read value 2.185211e-01
+2021/02/22 00:22:37      Read value 2.616272e-01
+2021/02/22 00:22:38      Read value 2.208252e-01
+2021/02/22 00:22:39      Read value 2.980042e-01
+2021/02/22 00:22:40      Read value 2.903748e-01
+Try counter 3
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:22:42      Read value 8.505249e-02
+2021/02/22 00:22:43      Read value 1.066437e-01
+2021/02/22 00:22:44      Read value 1.169128e-01
+2021/02/22 00:22:45      Read value 9.674072e-02
+2021/02/22 00:22:46      Read value 1.409607e-01
+2021/02/22 00:22:47      Read value 1.438599e-01
+2021/02/22 00:22:48      Read value 1.137085e-01
+2021/02/22 00:22:49      Read value 1.112518e-01
+2021/02/22 00:22:50      Read value 1.214752e-01
+2021/02/22 00:22:51      Read value 1.191254e-01
+
+Testing source msr-rapl
+Try counter 0
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:22:53      Read value 3.876770e+00
+2021/02/22 00:22:54      Read value 3.917374e+00
+2021/02/22 00:22:55      Read value 3.904312e+00
+2021/02/22 00:22:56      Read value 3.920502e+00
+2021/02/22 00:22:57      Read value 3.934708e+00
+2021/02/22 00:22:58      Read value 3.986206e+00
+2021/02/22 00:22:59      Read value 3.864136e+00
+2021/02/22 00:23:00      Read value 4.186020e+00
+2021/02/22 00:23:02      Read value 3.928909e+00
+2021/02/22 00:23:03      Read value 3.872482e+00
+Try counter 1
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:23:05      Read value 2.677460e-01
+2021/02/22 00:23:06      Read value 2.752380e-01
+2021/02/22 00:23:07      Read value 3.394318e-01
+2021/02/22 00:23:08      Read value 4.389191e-01
+2021/02/22 00:23:09      Read value 5.744324e-01
+2021/02/22 00:23:10      Read value 2.240295e-01
+2021/02/22 00:23:11      Read value 2.055359e-01
+2021/02/22 00:23:12      Read value 3.126221e-01
+2021/02/22 00:23:13      Read value 2.191010e-01
+2021/02/22 00:23:14      Read value 1.945038e-01
+Try counter 3
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/22 00:23:16      Read value 1.158447e-01
+2021/02/22 00:23:17      Read value 1.354675e-01
+2021/02/22 00:23:18      Read value 9.638977e-02
+2021/02/22 00:23:19      Read value 9.034729e-02
+2021/02/22 00:23:20      Read value 9.860229e-02
+2021/02/22 00:23:21      Read value 1.033936e-01
+2021/02/22 00:23:22      Read value 8.528137e-02
+2021/02/22 00:23:23      Read value 1.071930e-01
+2021/02/22 00:23:24      Read value 1.239777e-01
+2021/02/22 00:23:25      Read value 1.084900e-01
+
