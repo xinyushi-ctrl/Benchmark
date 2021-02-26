@@ -1,0 +1,18 @@
+xinyu@xinyu-Aspire-5750ZG:~/x86_energy/test$ sudo ./test
+[sudo] password for xinyu: 
+Architecture: Intel RAPL
+Please enter the number of the selecting testing source (sysfs=0; perf=1; msr=2):2
+
+Testing source msr-rapl
+Please enter the number of the selecting counter(PCKG=0; CORES=1; DRAM=2; GPU=3; PLATFORM=4; SINGLE_CORE=5):1
+avail for granularity 1. There are 1 devices avail for this counter, testing 0
+2021/02/26 12:02:50  timestamp(milli):1614337370340 Read value 5.164642e-01 Joules
+2021/02/26 12:02:51  timestamp(milli):1614337371348 Read value 4.810791e-01 Joules
+2021/02/26 12:02:52  timestamp(milli):1614337372354 Read value 4.824066e-01 Joules
+2021/02/26 12:02:53  timestamp(milli):1614337373363 Read value 4.842224e-01 Joules
+2021/02/26 12:02:54  timestamp(milli):1614337374370 Read value 5.659943e-01 Joules
+2021/02/26 12:02:55  timestamp(milli):1614337375378 Read value 1.002686e+00 Joules
+2021/02/26 12:02:56  timestamp(milli):1614337376386 Read value 1.047943e+00 Joules
+2021/02/26 12:02:57  timestamp(milli):1614337377394 Read value 8.281708e-01 Joules
+2021/02/26 12:02:58  timestamp(milli):1614337378401 Read value 5.576477e-01 Joules
+2021/02/26 12:02:59  timestamp(milli):1614337379410 Read value 6.639252e-01 Joules
